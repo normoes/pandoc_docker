@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.10
+FROM alpine:3.10
 
 ARG PANDOC_VERSION="${PANDOC_VERSION:-2.7.3}"
 
